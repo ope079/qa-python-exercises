@@ -1,7 +1,7 @@
 def grades(mark):
     if mark > 85:
-        print("distinction")
+        return ("Distinction")
     if 65 <  mark and mark <= 85:
-        print("pass")
+        return ("Pass")
     if mark < 65:
-        print("Fail")
+        return ("Fail")

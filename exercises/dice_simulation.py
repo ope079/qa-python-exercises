@@ -5,4 +5,3 @@ def simulation():
     b = throw.generate()
     return a, b
 
-print(simulation())

@@ -1,5 +1,5 @@
 def grade_calc(maths, chemistry, physics):
-    percentage = (maths + chemistry + physics)/3
+    percentage = int((maths + chemistry + physics)/3)
 
     mark = ""
     if percentage < 40:
@@ -13,6 +13,6 @@ def grade_calc(maths, chemistry, physics):
     else:
         mark = "A"
 
-    return f"Your percentage score is  {percentage} % \nYour scored a grade of : {mark}"
+    return f"Your percentage score is {percentage}%\nYou scored a grade of : {mark}"
 
 print(grade_calc(70,80,90))

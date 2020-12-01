@@ -5,7 +5,3 @@ def times_table(x):
             print(i * j, end=' ')
         print("\n")
     
-
-
-
-times_table(5)

@@ -1,6 +1,7 @@
 def grades(name, homework, assessment, final_exam):
     mark = int((homework + assessment + final_exam)/1.75)
     grade = " "
+
     if mark < 40:
         grade = "F"
     elif mark < 50:
@@ -13,6 +14,5 @@ def grades(name, homework, assessment, final_exam):
         grade = "B"
     else:
         grade = "A"
-    return f" {name} scored {mark}% with Grade {grade}"
+    return f"{name} scored {mark}% with Grade {grade}"
 
-print(grades("Tony", 24, 45, 98))

@@ -5,8 +5,6 @@ def loop(x):
         
         name = input("What is your name? ")
         print(name, "is awesome!")
-        x +=  1
-
-print(loop(x))     
+        x +=  1   
     
     

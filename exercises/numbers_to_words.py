@@ -19,10 +19,5 @@ def num_to_words(number):
         b = int((number%100)/10)
         c = number%10
         return ones[a] + " " + multiples[0] +  " and " + tens[b] + " " + ones[c]
-    elif number < 1000000:
-        a = int(number/1000)
-        b = int((number%1000)/100)
-        c = number%100
-        return ones[a] + " " + multiples[1] + " " + ones[b] + " " + multiples[0] +  " and " + ones[c]
 
-print(num_to_words(1018))
+print(num_to_words(18))

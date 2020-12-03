@@ -1,4 +1,4 @@
-with open("teams.txt") as f:
+with open("teams.txt", "r") as f:
     lines = f.readlines()
 
 lines[0] = "This is a new line. \n"
